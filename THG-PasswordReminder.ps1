@@ -24,12 +24,13 @@ $ThreeDayWarnDate = (get-date).adddays(3).ToLongDateString()
 $twoDayWarnDate = (get-date).adddays(2).ToLongDateString()
 $OneDayWarnDate = (get-date).adddays(1).ToLongDateString()
 
-$MailSender = " PasswordReminder@hilbgroup.com"
-$Subject = 'Your account password will expire soon'
-$EmailStub1 = 'I am a bot and performed this action automatically. I am here to inform you that the password for'
+$helpdeskemail = "Help@hilbgroup.com'
+$MailSender = "PasswordReminder@hilbgroup.com"
+$Subject = 'Your password will Expire soon.'
+$EmailStub1 = 'This is a friendly reminder that your password'
 $EmailStub2 = 'will expire in'
 $EmailStub3 = 'days on'
-$EmailStub4 = '. Please contact the helpdesk if you need assistance changing your password. DO NOT REPLY TO THIS EMAIL.'
+$EmailStub4 = '. Please contact the helpdesk at $Helpdeskemail if you need assistance changing your password. DO NOT REPLY TO THIS EMAIL.'
 $SMTPServer = 'smtp.office365.com'
  
 #Find accounts that are enabled and have expiring passwords
