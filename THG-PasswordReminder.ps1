@@ -24,7 +24,7 @@ $ThreeDayWarnDate = (get-date).adddays(3).ToLongDateString()
 $twoDayWarnDate = (get-date).adddays(2).ToLongDateString()
 $OneDayWarnDate = (get-date).adddays(1).ToLongDateString()
 
-$helpdeskemail = "Help@hilbgroup.com'
+$helpdeskemail = "Helpdesk@hilbgroup.com'
 $MailSender = "PasswordReminder@hilbgroup.com"
 $Subject = 'Your password will Expire soon.'
 $EmailStub1 = 'This is a friendly reminder that your password'
